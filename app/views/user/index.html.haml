@@ -1,0 +1,8 @@
+.row
+  .col-md-3.col-md-offset-4.username-input
+    %p.tip Please input exist username and check interesting questions of user:
+    %input#username.form-control{placeholder: "username of StackOverflow", type: "text"}/
+    %button#check-question.btn.btn-info{type: "button"} Check questions
+.row
+  .col-md-10.col-md-offset-1#result
+= render template: "user/question"

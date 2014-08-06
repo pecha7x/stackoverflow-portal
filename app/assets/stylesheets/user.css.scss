@@ -1,0 +1,25 @@
+.username-input {
+  margin-top: 100px;
+  text-align: center;
+  .tip {
+    font-size: 18px;
+  }
+  input {
+    text-align: center;
+  }
+  button {
+    margin-top: 10px;
+  }
+}
+#result {
+  margin-top: 30px;
+  text-align: center;
+  .question {
+    margin-top: 15px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px;
+    .col-md-9 {
+      text-align: left;
+    }
+  }
+}
